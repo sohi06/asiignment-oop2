@@ -1,7 +1,7 @@
 sentence = "Learning Python is fun and rewarding."
 
 start = sentence.find("Python")
-end = sentence.find("rewarding")
+end = sentence.find("and")
 substring = sentence[start:end].strip() 
 
 print("Extracted substring:", substring)
